@@ -3,7 +3,6 @@ import os
 
 from firebase_admin import firestore
 from google.cloud import firestore
-
 FORMAT = "%(levelname)s %(asctime)s %(funcName)s() %(lineno)i %(message)s"
 formatter = logging.Formatter(FORMAT)
 stream_handler = logging.StreamHandler()
